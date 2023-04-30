@@ -232,14 +232,28 @@ padding-bottom: 100px;
 }
 .footer-container{
     display: flex;
+    flex-direction: column;
+    gap: 72px;
   
 }
 .footer-one{
     margin-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
 .footer-two{
-    margin-right: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
 .text-social-media{
     color: #FFFFFF;
     margin-bottom: 16px;
@@ -272,8 +286,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-display: block;
+display: flex;
+
 margin-bottom: 16px;
+justify-content: center
 }
 
 .footer-button{
@@ -286,7 +302,7 @@ background: #4D5AE5;
 border-radius: 4px;
 padding: 8px 24px;
 height: 40px;
-min-width: 165px;
+max-width: 165px;
 display: flex;
 border-color:transparent;
 transition:background-color var(--trasform-duration--) var(---transition-function--)
@@ -298,22 +314,24 @@ transition:background-color var(--trasform-duration--) var(---transition-functio
 {
 background-color: #404BBF;;
 }
-
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+  }
 
 .footer-icon{
     fill: #FFFFFF;
     margin-left: 16px;
 }
-.subscribe{
-  display: flex;
-  gap:24px;
-}
+
 .subscribe-form{
     background-color: transparent;
     border: 1px solid #FFFFFF;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
-width:264px ;
+width: 398px;
 height: 40px;
 padding: 8px 16px;
 }
@@ -518,16 +536,17 @@ height: 40px;
 .customers-list{
     margin-top: 72px;
     display: flex;
-gap: 24px;
-align-items: center;
-justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 72px;
+    width: 396px;
 }
 .customers-item{
     
     display: flex;
     align-items: center;
     justify-content: center;
-    width:168px;
+    width:190px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -675,8 +694,8 @@ transform: translate(0, 100%);
     background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-width: 408px;
-height: 576px;
+width: 392px;
+height: 584px;
 transition: transform var(--trasform-duration--) var(---transition-function--);
 
 
