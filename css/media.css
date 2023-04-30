@@ -1,0 +1,255 @@
+@media screen and (min-width: 428px) {
+.container{
+    width: 396px;
+}
+.mobi-icons{
+    margin-right: 56px;
+}
+.section-hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet.jpg);
+    max-width: 767px;
+  
+
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .section-hero{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet2x.jpg);
+
+    }
+}
+
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width:1157px)
+{
+    .header{
+       
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+   
+
+}
+
+@media screen and (min-width: 768px) {
+.container{
+    width: 736px;
+
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.adress-list{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+   }
+   .nav-list{
+    font-weight:500;
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    color:var(--nav-list-color) ;
+    transition: color var(--trasform-duration--) var(---transition-function--); 
+    }
+    .nav-list:hover,
+    .nav-list:focus{
+        color: var(--color-footer-hover);
+    }
+    .adress{font-style:inherit;
+       
+    }
+    .mail{font-size: 12px;
+        line-height: 1.1;
+       
+        letter-spacing: 0.02em; 
+        color: var(--text-color); 
+        transition: color var(--trasform-duration--) var(---transition-function--);  
+    }
+    .mail:hover,
+    .mail:focus{
+        color: var(--color-footer-hover);
+    }
+    .current{position: relative;
+    
+    }
+    .current::after{
+        content:'';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: #404BBF;
+        top: 41px;
+    border-radius: 2px;
+    }
+    .button-humburger{
+        display: none;
+    }
+    .mobmenu{
+        display: none;
+    }
+    .section-hero{
+      max-width: 1158px;  
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimg.jpg);
+   }
+  
+  
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .section-hero{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desc2x.jpg);
+    }}
+
+    .title{
+        font-size: 56px;
+        margin: 0 auto 36px;
+        max-width: 496px;
+
+    }
+    .subtitle{
+        text-align:left; 
+    }
+    .texts{
+        margin-bottom:0;
+    }
+  
+    
+    .list-section-two{
+        display: flex;
+        Flex-direction: row;
+        
+column-gap: 24px;
+       row-gap: 72px;
+       flex-wrap: wrap;
+    }
+    .list-section-two .text{
+        width: 340px;
+        display:block;
+    }
+
+
+
+    
+
+}
+
+
+
+
+
+/*desc*/
+
+@media screen and (min-width:  1158px) {
+    .container
+    { 
+       width:  1158px;
+      padding:0 15px;
+        margin: 0 auto;
+      
+    }
+    .adress-list{
+        display: flex;
+        flex-direction: row;
+       gap: 40px;
+       }
+       .mail{
+        font-size: 16px;
+        line-height: 1.5; }
+
+        .current::after
+        {top:44px;}
+        .section-hero{
+            padding:188px 0;
+        background-size:cover;
+        background-position: center;
+            background-repeat: no-repeat;
+            max-width: 1440px;
+            margin: 0 auto;}
+            
+            .title{
+    
+font-size: 56px;
+line-height:1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--hero--text---) ;
+margin: 0 auto 48px;
+width: 496px;
+
+}
+.section-our{
+    display: block ;
+}
+.list-section-three{
+    margin-top: 72px;
+    display: flex;
+    gap: 24px;
+
+}
+.item-section-three{
+    width:calc((100%-48px)/3);
+}
+
+
+
+.section-two{
+    padding-bottom: 0;
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.advantages-icon{
+    width: 64px;
+    height: 64px;
+    
+}
+.advantages-icons{
+    background: #F4F4FD;
+border-radius: 4px;
+    display: block;
+    width: 264px;
+    height: 112px;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+    margin-bottom: 8px;
+    
+   
+}
+.list-section-two{
+    display: flex;
+   gap: 24px;
+    flex-wrap: nowrap;
+   
+}
+.list-section-two .text{
+    width: 264px;}
+
+.subtitle{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--nav-list-color);
+}
+.text{
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+width: 264px;
+margin-top: 8px;
+}
+.list-our-team{
+    
+    flex-direction: row;
+    display: flex;
+    gap:24px;
+}
+}
