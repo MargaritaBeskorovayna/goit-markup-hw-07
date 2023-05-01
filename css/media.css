@@ -1,4 +1,7 @@
+
+
 @media screen and (min-width: 428px) {
+    
 .container{
     width: 396px;
 }
@@ -178,6 +181,7 @@ width:264px ;
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 72px;
+   justify-content: center;
   
 }
 .subscribe{
@@ -195,7 +199,8 @@ margin-bottom: 16px;
 justify-content: flex-start;
 }
 .footer-two{
-
+margin-left: 0;
+margin-right: 0;
     align-items: flex-start;
     
 }
@@ -276,6 +281,7 @@ width: 496px;
 
 
 .section-two{
+    padding-top: 120px;
     padding-bottom: 0;
 }
 .section{
@@ -338,7 +344,11 @@ flex-wrap: nowrap;
 }
 .footer-two{
     margin-right: 75px;
+    margin-left: 96px;
     
 }
+.footer-container{
+    flex-wrap: nowrap;
 
+}
 }
